@@ -30,6 +30,11 @@ header p{
     margin-top:10px;
 }
 
+a{
+   text-decoration: none;
+}
+   
+
 /* ナビゲーション */
 
 nav{
@@ -168,8 +173,4 @@ main{
     width:95%;
 }
 
-a{
-   text-decoration: none;
-}
-   
 }
