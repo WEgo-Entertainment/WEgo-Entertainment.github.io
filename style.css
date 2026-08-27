@@ -168,4 +168,8 @@ main{
     width:95%;
 }
 
+a{
+   text-decoration: none;
+}
+   
 }
