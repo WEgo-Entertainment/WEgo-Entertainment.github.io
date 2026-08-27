@@ -1,37 +1,171 @@
-body {
-  background: #111111;
-  color: white;
-  font-family: sans-serif;
-  text-align: center;
-  padding: 80px 20px;
+/* ==========================
+   W:E:go Entertainment
+   Official Website
+========================== */
+
+body{
+    margin:0;
+    font-family:"Yu Gothic","Meiryo",sans-serif;
+    background:#111111;
+    color:white;
 }
 
-h1 {
-  font-size: 60px;
-  letter-spacing: 5px;
+/* ヘッダー */
+
+header{
+    background:#000000;
+    text-align:center;
+    padding:35px;
+    border-bottom:3px solid #555555;
 }
 
-h2 {
-  margin-top: 60px;
-  letter-spacing: 3px;
+header h1{
+    margin:0;
+    font-size:42px;
+    letter-spacing:2px;
 }
 
-p {
-  color: #cccccc;
-  font-size: 18px;
-}
-a {
-  color: #cccccc;
-  text-decoration: none;
+header p{
+    color:#cccccc;
+    margin-top:10px;
 }
 
-a:hover {
-  color: white;
-  letter-spacing: 2px;
+/* ナビゲーション */
+
+nav{
+    background:#1d1d1d;
+    text-align:center;
+    padding:15px;
 }
-footer {
-  margin-top: 100px;
-  font-size: 12px;
-  color: #777777;
-  letter-spacing: 2px;
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#8ecbff;
+}
+
+/* メイン */
+
+main{
+    width:85%;
+    max-width:1000px;
+    margin:30px auto;
+}
+
+/* 見出し */
+
+h2{
+    border-left:6px solid #66b3ff;
+    padding-left:12px;
+    margin-top:40px;
+}
+
+/* カード */
+
+.card{
+    background:#222222;
+    padding:20px;
+    border-radius:12px;
+    margin:20px 0;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-4px);
+    background:#2b2b2b;
+}
+
+/* ボタン */
+
+.button{
+    display:inline-block;
+    background:#66b3ff;
+    color:white;
+    text-decoration:none;
+    padding:10px 18px;
+    border-radius:8px;
+    margin-top:10px;
+}
+
+.button:hover{
+    background:#4598ea;
+}
+
+/* 表 */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+th{
+    background:#333333;
+    color:white;
+    padding:12px;
+    border:1px solid #666666;
+}
+
+td{
+    background:#222222;
+    padding:12px;
+    border:1px solid #666666;
+}
+
+/* 画像 */
+
+img{
+    width:100%;
+    max-width:700px;
+    display:block;
+    margin:auto;
+    border-radius:10px;
+}
+
+/* リスト */
+
+ul{
+    line-height:2;
+}
+
+/* フッター */
+
+footer{
+    background:#000000;
+    color:#bbbbbb;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+/* 横線 */
+
+hr{
+    border:1px solid #444444;
+    margin:35px 0;
+}
+
+/* レスポンシブ */
+
+@media screen and (max-width:700px){
+
+nav a{
+    display:block;
+    margin:12px;
+}
+
+header h1{
+    font-size:30px;
+}
+
+main{
+    width:95%;
+}
+
 }
